@@ -2,7 +2,7 @@ class Evaluation
     
     attr_accessor :type, :value, :score, :state, :reason
   
-    TYPES = %w[SIREN].freeze
+    TYPES = %w[SIREN VAT].freeze
     STATES = %w[favorable unfavorable unconfirmed].freeze
     REASONS = %w[unable_to_reach_api company_closed ongoing_database_update company_opened].freeze
   
